@@ -58,21 +58,34 @@ Each evaluation module tells a unique story—revealing how the AI thinks, acts,
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Prerequisites
+
+- **Python 3.8+** (recommended: 3.9 or 3.10)
+- **OpenAI API Key** with GPT-4 access
+- **Git** for cloning the repository
+- **Virtual environment** (recommended)
+
+###  Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/bangla-llm-evaluation.git
-cd bangla-llm-evaluation
+git clone https://github.com/srv-sh/evaluation_framework.git
+cd evaluation_framework
 ```
 
-### 2. Install Dependencies
+### Build environment and activate
+```
+python -m venv eva_frame_env
+source eva_frame_env/bin/activate
+```
+
+### Install Dependencies
 Ensure you're using Python 3.8+.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Prepare the Datasets
+###  Prepare the Datasets
 Create a folder called dataset/ and include the following .json files: 
 
 | Evaluation Dimension       | Dataset Path                                |
@@ -85,8 +98,22 @@ Create a folder called dataset/ and include the following .json files:
 | Language Proficiency       | `dataset/bangla_language_proficiency.json`  |
 | Task Execution Accuracy    | `dataset/task_exec_dataset.json`             |
 
+### Exporting OpenAI API key
+```
+export OPENAI_API_KEY="your_api_key_here"
+```
 
-### 4. Output Directory
+### Run main script
+```
+
+mkdir output
+python main.py
+
+```
+
+
+### Output Directory
+After executing code you will get directory like below
 ```bash
 output/
 ├── conversation_fluency.json
@@ -98,3 +125,4 @@ output/
 ├── task_execution_accuracy.json
 
 ```
+
