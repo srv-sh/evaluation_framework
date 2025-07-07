@@ -1,0 +1,117 @@
+[
+  {
+    "prompt": "২০ ভাগ ৫ কত?",
+    "expected_tool": "Calculator",
+    "expected_substring": "4",
+    "agent_response": "২০ ভাগ ৫ হল ৪।",
+    "tools_used": [
+      {
+        "tool": "Calculator",
+        "input": "20 / 5"
+      }
+    ]
+  },
+  {
+    "prompt": "কক্সবাজারের আবহাওয়া কেমন এখন?",
+    "expected_tool": "Weather",
+    "expected_substring": "কক্সবাজার",
+    "agent_response": "The weather in Cox's Bazar is sunny right now.",
+    "tools_used": [
+      {
+        "tool": "Weather",
+        "input": "Cox's Bazar"
+      }
+    ]
+  },
+  {
+    "prompt": "এই বাক্যটির সাবলীলতা কতটা? আজ অনেক ব্যস্ত একটা দিন ছিল।",
+    "expected_tool": "Fluency",
+    "expected_substring": "Fluency Score",
+    "agent_response": "বাক্যটি সাবলীল।",
+    "tools_used": [
+      {
+        "tool": "Fluency",
+        "input": "এই বাক্যটির সাবলীলতা কতটা? আজ অনেক ব্যস্ত একটা দিন ছিল।"
+      }
+    ]
+  },
+  {
+    "prompt": "৮৯ যোগ ১১ এর ফলাফল দাও",
+    "expected_tool": "Calculator",
+    "expected_substring": "100",
+    "agent_response": "[ERROR] invalid character '৮' (U+09EE) (<string>, line 1)",
+    "tools_used": []
+  },
+  {
+    "prompt": "চট্টগ্রামে আজকের আবহাওয়ার আপডেট দাও।",
+    "expected_tool": "Weather",
+    "expected_substring": "চট্টগ্রাম",
+    "agent_response": "The weather in Chittagong is sunny today.",
+    "tools_used": [
+      {
+        "tool": "Weather",
+        "input": "Chittagong"
+      }
+    ]
+  },
+  {
+    "prompt": "এই বাক্যটি ঠিক আছে কিনা দেখো: তুমি কি আজ স্কুলে গিয়েছিলে?",
+    "expected_tool": "Fluency",
+    "expected_substring": "Fluency Score",
+    "agent_response": "এই বাক্যটি ঠিকভাবে লিখা হয়েছে।",
+    "tools_used": [
+      {
+        "tool": "Fluency",
+        "input": "তুমি কি আজ স্কুলে গিয়েছিলে?"
+      }
+    ]
+  },
+  {
+    "prompt": "৯ গুন ৯ এর মান কত?",
+    "expected_tool": "Calculator",
+    "expected_substring": "81",
+    "agent_response": "৯ গুন ৯ এর মান ৮১।",
+    "tools_used": [
+      {
+        "tool": "Calculator",
+        "input": "9 * 9"
+      }
+    ]
+  },
+  {
+    "prompt": "সিলেটের আবহাওয়া এখন কেমন?",
+    "expected_tool": "Weather",
+    "expected_substring": "সিলেট",
+    "agent_response": "The weather in Sylhet is sunny.",
+    "tools_used": [
+      {
+        "tool": "Weather",
+        "input": "Sylhet"
+      }
+    ]
+  },
+  {
+    "prompt": "এই বাক্যটি বিশ্লেষণ করো: আমি আজ নতুন বই কিনেছি।",
+    "expected_tool": "Fluency",
+    "expected_substring": "Fluency Score",
+    "agent_response": "বাক্যটি \"আমি আজ নতুন বই কিনেছি।\" ঠিকমতো লিখা এবং সুবিধাজনক।",
+    "tools_used": [
+      {
+        "tool": "Fluency",
+        "input": "আমি আজ নতুন বই কিনেছি।"
+      }
+    ]
+  },
+  {
+    "prompt": "৩৫ আর ১৫ এর যোগফল কত?",
+    "expected_tool": "Calculator",
+    "expected_substring": "50",
+    "agent_response": "৩৫ আর ১৫ এর যোগফল ৫০।",
+    "tools_used": [
+      {
+        "tool": "Calculator",
+        "input": "35 + 15"
+      }
+    ]
+  }
+]

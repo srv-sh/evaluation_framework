@@ -1,0 +1,162 @@
+[
+  {
+    "text": "আমি আগামীকাল বইমেলায় যাব।",
+    "gold_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 5, 'style': 5, 'register': 5}"
+  },
+  {
+    "text": "কাল্কে বইমেলা যামু রে ভাই!",
+    "gold_scores": {
+      "grammar": 3,
+      "tone": 3,
+      "style": 2,
+      "register": 2
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 4,
+      "register": 2
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 5, 'style': 4, 'register': 2}"
+  },
+  {
+    "text": "আপনার কি সাহায্য দরকার?",
+    "gold_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 4,
+      "register": 5
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 5, 'style': 5, 'register': 5}"
+  },
+  {
+    "text": "কিরে, তোর কি হেল্প লাগবো?",
+    "gold_scores": {
+      "grammar": 3,
+      "tone": 2,
+      "style": 2,
+      "register": 1
+    },
+    "predicted_scores": {
+      "grammar": 4,
+      "tone": 2,
+      "style": 3,
+      "register": 2
+    },
+    "raw_model_output": "{'grammar': 4, 'tone': 2, 'style': 3, 'register': 2}"
+  },
+  {
+    "text": "আমি একটু পরে আসছি, কাজ আছে।",
+    "gold_scores": {
+      "grammar": 5,
+      "tone": 4,
+      "style": 4,
+      "register": 4
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 4,
+      "style": 4,
+      "register": 3
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 4, 'style': 4, 'register': 3}"
+  },
+  {
+    "text": "এখন ব্যস্ত, পরে আসবো।",
+    "gold_scores": {
+      "grammar": 4,
+      "tone": 4,
+      "style": 4,
+      "register": 3
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 4,
+      "style": 4,
+      "register": 3
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 4, 'style': 4, 'register': 3}"
+  },
+  {
+    "text": "আজকে অনেক গরম পড়েছে, বাইরে যাওয়া কষ্টকর।",
+    "gold_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 4,
+      "style": 4,
+      "register": 3
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 4, 'style': 4, 'register': 3}"
+  },
+  {
+    "text": "বাইরে এত গরম, যাই কিভাবে!",
+    "gold_scores": {
+      "grammar": 4,
+      "tone": 3,
+      "style": 3,
+      "register": 3
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 3,
+      "style": 4,
+      "register": 2
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 3, 'style': 4, 'register': 2}"
+  },
+  {
+    "text": "তোমার সঙ্গে দেখা হলে ভালো লাগবে।",
+    "gold_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 5, 'style': 5, 'register': 5}"
+  },
+  {
+    "text": "তোরে দেখলে মজা লাগবো ভাই!",
+    "gold_scores": {
+      "grammar": 3,
+      "tone": 2,
+      "style": 2,
+      "register": 2
+    },
+    "predicted_scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 4,
+      "register": 2
+    },
+    "raw_model_output": "{'grammar': 5, 'tone': 5, 'style': 4, 'register': 2}"
+  }
+]

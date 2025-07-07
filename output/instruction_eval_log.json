@@ -1,0 +1,83 @@
+[
+  {
+    "prompt": "শুধু ফলাফলের সংখ্যা বলো, ব্যাখ্যা দিও না: ১৫ ভাগ ৩",
+    "expected": "৫",
+    "actual": "5",
+    "similarity_score": 0.967663049697876,
+    "regex_match": true,
+    "passed": true,
+    "error": false
+  },
+  {
+    "prompt": "বাক্যটি ইংরেজিতে অনুবাদ করো কিন্তু কোনো ব্যাখ্যা দিও না: আমি বই পড়ছি।",
+    "expected": "I am reading a book.",
+    "actual": "I am reading a book.",
+    "similarity_score": 0.9999999403953552,
+    "regex_match": null,
+    "passed": true,
+    "error": false
+  },
+  {
+    "prompt": "এই কথাগুলো বুলেট পয়েন্টে সাজাও: আম, কাঁঠাল, লিচু",
+    "expected": "• আম\n• কাঁঠাল\n• লিচু",
+    "actual": "- আম\n- কাঁঠাল\n- লিচু",
+    "similarity_score": 0.8314772844314575,
+    "regex_match": false,
+    "passed": false,
+    "error": false
+  },
+  {
+    "prompt": "এই সংখ্যাটিকে বাংলা হরফে লিখো: 102",
+    "expected": "একশো দুই",
+    "actual": "একশ দুই",
+    "similarity_score": 0.886288046836853,
+    "regex_match": false,
+    "passed": false,
+    "error": false
+  },
+  {
+    "prompt": "এই বাক্যটিকে কবিতার ছন্দে রূপ দাও: আমি নদীর পাশে বসে আছি।",
+    "expected": "নদীর কূলে চুপটি বসে, ভাবছি আমি একা, হেসে।",
+    "actual": "আমি নদীর পাশে বসে আছি,\nতার স্রোতে মন ভরে আছি।\nপ্রশান্ত জলের সঙ্গে মিশে,\nসুরের মাধুর্য আমাকে ভরে।।",
+    "similarity_score": 0.6073300242424011,
+    "regex_match": null,
+    "passed": false,
+    "error": false
+  },
+  {
+    "prompt": "শুধুমাত্র তারিখটি লেখো (বছর বাদে): আজকের তারিখ কী?",
+    "expected": "৬ জুলাই",
+    "actual": "আজকের তারিখ হল: ২২ নভেম্বর, ২০২২।",
+    "similarity_score": 0.6761553287506104,
+    "regex_match": false,
+    "passed": false,
+    "error": false
+  },
+  {
+    "prompt": "এই সংখ্যাগুলোর যোগফল দাও, কিন্তু বাংলা সংখ্যায়: ৩, ৫, ৭",
+    "expected": "১৫",
+    "actual": "৩ + ৫ + ৭ = ১৫",
+    "similarity_score": 0.6661707162857056,
+    "regex_match": false,
+    "passed": false,
+    "error": false
+  },
+  {
+    "prompt": "শুধু সময় বলো, কোনো অতিরিক্ত কথা নয়: এখন কয়টা বাজে?",
+    "expected": "৩টা ৩০ মিনিট",
+    "actual": "এখন বাজে দশটা।",
+    "similarity_score": 0.7100012302398682,
+    "regex_match": false,
+    "passed": false,
+    "error": false
+  },
+  {
+    "prompt": "এই বাক্যটিকে প্রশ্নবোধক করো: তুমি ঘরে ছিলে",
+    "expected": "তুমি কি ঘরে ছিলে?",
+    "actual": "তুমি কি ঘরে ছিলে?",
+    "similarity_score": 1.0,
+    "regex_match": null,
+    "passed": true,
+    "error": false
+  }
+]
