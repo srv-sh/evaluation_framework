@@ -1,0 +1,92 @@
+[
+  {
+    "text": "আমি আগামীকাল বইমেলায় যাব।",
+    "scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    }
+  },
+  {
+    "text": "কাল্কে বইমেলা যামু রে ভাই!",
+    "scores": {
+      "grammar": 3,
+      "tone": 3,
+      "style": 2,
+      "register": 2
+    }
+  },
+  {
+    "text": "আপনার কি সাহায্য দরকার?",
+    "scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 4,
+      "register": 5
+    }
+  },
+  {
+    "text": "কিরে, তোর কি হেল্প লাগবো?",
+    "scores": {
+      "grammar": 3,
+      "tone": 2,
+      "style": 2,
+      "register": 1
+    }
+  },
+  {
+    "text": "আমি একটু পরে আসছি, কাজ আছে।",
+    "scores": {
+      "grammar": 5,
+      "tone": 4,
+      "style": 4,
+      "register": 4
+    }
+  },
+  {
+    "text": "এখন ব্যস্ত, পরে আসবো।",
+    "scores": {
+      "grammar": 4,
+      "tone": 4,
+      "style": 4,
+      "register": 3
+    }
+  },
+  {
+    "text": "আজকে অনেক গরম পড়েছে, বাইরে যাওয়া কষ্টকর।",
+    "scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    }
+  },
+  {
+    "text": "বাইরে এত গরম, যাই কিভাবে!",
+    "scores": {
+      "grammar": 4,
+      "tone": 3,
+      "style": 3,
+      "register": 3
+    }
+  },
+  {
+    "text": "তোমার সঙ্গে দেখা হলে ভালো লাগবে।",
+    "scores": {
+      "grammar": 5,
+      "tone": 5,
+      "style": 5,
+      "register": 5
+    }
+  },
+  {
+    "text": "তোরে দেখলে মজা লাগবো ভাই!",
+    "scores": {
+      "grammar": 3,
+      "tone": 2,
+      "style": 2,
+      "register": 2
+    }
+  }
+]

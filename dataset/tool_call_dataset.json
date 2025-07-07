@@ -1,0 +1,62 @@
+[
+  {
+    "prompt": "২০ ভাগ ৫ কত?",
+    "expected_tool": "Calculator",
+    "expected_args": "20 / 5",
+    "expected_substring": "4"
+  },
+  {
+    "prompt": "কক্সবাজারের আবহাওয়া কেমন এখন?",
+    "expected_tool": "Weather",
+    "expected_args": "কক্সবাজার",
+    "expected_substring": "কক্সবাজার"
+  },
+  {
+    "prompt": "এই বাক্যটির সাবলীলতা কতটা? আজ অনেক ব্যস্ত একটা দিন ছিল।",
+    "expected_tool": "Fluency",
+    "expected_args": "আজ অনেক ব্যস্ত একটা দিন ছিল।",
+    "expected_substring": "Fluency Score"
+  },
+  {
+    "prompt": "৮৯ যোগ ১১ এর ফলাফল দাও",
+    "expected_tool": "Calculator",
+    "expected_args": "89 + 11",
+    "expected_substring": "100"
+  },
+  {
+    "prompt": "চট্টগ্রামে আজকের আবহাওয়ার আপডেট দাও।",
+    "expected_tool": "Weather",
+    "expected_args": "চট্টগ্রাম",
+    "expected_substring": "চট্টগ্রাম"
+  },
+  {
+    "prompt": "এই বাক্যটি ঠিক আছে কিনা দেখো: তুমি কি আজ স্কুলে গিয়েছিলে?",
+    "expected_tool": "Fluency",
+    "expected_args": "তুমি কি আজ স্কুলে গিয়েছিলে?",
+    "expected_substring": "Fluency Score"
+  },
+  {
+    "prompt": "৯ গুন ৯ এর মান কত?",
+    "expected_tool": "Calculator",
+    "expected_args": "9 * 9",
+    "expected_substring": "81"
+  },
+  {
+    "prompt": "সিলেটের আবহাওয়া এখন কেমন?",
+    "expected_tool": "Weather",
+    "expected_args": "সিলেট",
+    "expected_substring": "সিলেট"
+  },
+  {
+    "prompt": "এই বাক্যটি বিশ্লেষণ করো: আমি আজ নতুন বই কিনেছি।",
+    "expected_tool": "Fluency",
+    "expected_args": "আমি আজ নতুন বই কিনেছি।",
+    "expected_substring": "Fluency Score"
+  },
+  {
+    "prompt": "৩৫ আর ১৫ এর যোগফল কত?",
+    "expected_tool": "Calculator",
+    "expected_args": "35 + 15",
+    "expected_substring": "50"
+  }
+]
